@@ -24,6 +24,8 @@ function App() {
           </a>
         </div>
         <h1>Vite + React</h1>
+        <h2>Title: {import.meta.env.VITE_APP_TITLE}</h2>
+        <h2>Mode: {import.meta.env.MODE}</h2>
         <Button onClick={() => setCount((count) => count + 1)}>
           Increase count
         </Button>

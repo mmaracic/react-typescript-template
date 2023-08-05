@@ -15,3 +15,17 @@ Includes:
 Requirements
 * Visual Sudio Code version above 1.77 (Vite 4.3.3 requirement)
 https://stackoverflow.com/questions/76071355/vite-default-template-giving-error-in-vscode-moduleresolution-bundler
+
+## Starting
+If packages have not yet been fetched run
+```
+npm install
+```
+Run and build scripts are in package.json. Execute one of them e.g.
+```
+npm run dev
+```
+Vite run and build script options: https://vitejs.dev/guide/cli.html
+
+## Env variables
+https://vitejs.dev/guide/env-and-mode.html
