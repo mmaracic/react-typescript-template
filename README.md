@@ -33,6 +33,13 @@ npm run dev
 ```
 Vite run and build script options: https://vitejs.dev/guide/cli.html
 
+## Building for production
+Run:
+```
+npm run build
+```
+The code is tested and then production files are built.  
+The production files are placed in **dist** folder by default.
 ## Env variables
 https://vitejs.dev/guide/env-and-mode.html
 
@@ -44,4 +51,4 @@ It is run using script:
 ```
 npm run json-server
 ```
-Json server data is in filedb.json
+Json server data is in file db.json

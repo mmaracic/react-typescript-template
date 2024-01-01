@@ -1,5 +1,5 @@
 import Typography from '@mui/material/Typography';
-import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
