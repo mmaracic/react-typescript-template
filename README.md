@@ -33,6 +33,26 @@ npm run dev
 ```
 Vite run and build script options: https://vitejs.dev/guide/cli.html
 
+### Updateing packages in package.json
+
+Can use npm-check-updates package https://www.npmjs.com/package/npm-check-updates  
+Install
+```
+sudo npm install -g npm-check-updates
+```
+
+Get list of packages that need update (suggestions)  
+```
+ncu
+```
+
+Update package.json according to suggestions while keeping higher version suggestions:  
+```
+ncu -u
+```
+
+Warning: The Proposed updates can create dependency collisions so manual downgrade of some packages might be needed after update to keep everything consistent.
+
 ## Building for production
 Run:
 ```
