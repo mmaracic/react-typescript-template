@@ -118,3 +118,6 @@ Initialize tailwindcss configuration files (tailwind.config.js and postcss.confi
 ```
 npx tailwindcss init -p
 ```
+
+### Editor
+Install Tailwind CSS IntelliSense plugin for VS Code
