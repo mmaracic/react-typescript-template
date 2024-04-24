@@ -11,6 +11,7 @@ Includes:
 * Typescript 5
 * MUI 5
 * Json Server
+* Tailwindcss
 
 Requirements
 * Visual Sudio Code version above 1.77 (Vite 4.3.3 requirement)
@@ -104,3 +105,16 @@ It is run using script:
 npm run json-server
 ```
 Json server data is in file db.json
+
+## Tailwindcss
+
+### Installation
+Add Tailwind to the project as dev dependency (-D). Might also reorder dependencies in alphabetical order.
+```
+npm install -D tailwindcss postcss autoprefixer
+```
+
+Initialize tailwindcss configuration files (tailwind.config.js and postcss.config.js) in the project.
+```
+npx tailwindcss init -p
+```
