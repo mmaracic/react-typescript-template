@@ -51,7 +51,14 @@ Update package.json according to suggestions while keeping higher version sugges
 ncu -u
 ```
 
-Warning: The Proposed updates can create dependency collisions so manual downgrade of some packages might be needed after update to keep everything consistent.
+Warning 1: The Proposed updates can create dependency collisions so manual downgrade of some packages might be needed after update to keep everything consistent.
+
+#### Issues 
+If the ncu script is failing on Windows with error that running scripts is disabled run in Windows Admin Powershell:
+```
+Set-ExecutionPolicy RemoteSigned
+```
+Source: https://stackoverflow.com/questions/41117421/ps1-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system 2nd answer.
 
 ## Building for production
 Run:
@@ -65,7 +72,7 @@ https://vitejs.dev/guide/env-and-mode.html
 
 ## Json server
 https://www.npmjs.com/package/json-server?activeTab=readme#getting-started  
-
+https://github.com/typicode/json-server/tree/v0  
 Json server runs by default on port 300  
 It is run using script:  
 ```
