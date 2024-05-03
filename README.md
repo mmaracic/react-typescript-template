@@ -60,6 +60,31 @@ Set-ExecutionPolicy RemoteSigned
 ```
 Source: https://stackoverflow.com/questions/41117421/ps1-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system 2nd answer.
 
+### Updateing NPM packages
+https://stackoverflow.com/questions/10972176/find-the-version-of-an-installed-npm-package
+https://docs.npmjs.com/updating-packages-downloaded-from-the-registry
+
+To get a version of the npm package use (-g for global; omit package name to get all packages):
+```
+npm list [-g] <package_name>
+```
+
+To check for outdated packages use:
+```
+npm outdated [-g]
+```
+-g flag checks global packages.  
+
+To update all outdated packages use (-g for global):
+```
+npm update [-g]
+```
+
+To update a single outdated package use (add -g if the package is global): 
+```
+npm update [-g] <package_name>
+```
+
 ## Building for production
 Run:
 ```
