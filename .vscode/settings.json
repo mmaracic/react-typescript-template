@@ -1,8 +1,0 @@
-{
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/53d28b9b-a7f8-4902-a2a1-559a768debdf/resourceGroups/webapp/providers/Microsoft.Web/sites/mm-webapp-generic",
-    "appService.deploySubpath": "."
-}
