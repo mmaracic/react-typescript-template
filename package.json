@@ -1,5 +1,4 @@
 {
-  "name": "frontend-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,17 +11,11 @@
     "json-server": "json-server --watch db.json"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
-    "@fontsource/roboto": "^5.0.13",
-    "@mui/icons-material": "^5.15.15",
-    "@mui/material": "^5.15.15",
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@vitejs/plugin-basic-ssl": "^1.1.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "json-server": "^0.17.4",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
     "@typescript-eslint/eslint-plugin": "^7.7.1",
@@ -31,6 +24,7 @@
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "json-server": "^0.17.4",
     "typescript": "^5.4.5",
     "vite": "^5.2.10"
   }

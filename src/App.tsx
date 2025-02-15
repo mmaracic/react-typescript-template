@@ -1,6 +1,3 @@
-import Typography from '@mui/material/Typography';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Button from '@mui/material/Button';
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -15,7 +12,6 @@ function App() {
   const [count, setCount] = useState(0)
   const [message, setMessage] = useState("")
 
-  const theme = createTheme();
   const baseUrl = import.meta.env.VITE_SERVER + "/messages"
   
 
@@ -41,7 +37,6 @@ function App() {
 
   return (
     <>
-      <ThemeProvider theme={theme}>
         <div>
           <a href="https://vitejs.dev" target="_blank">
             <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -54,10 +49,9 @@ function App() {
         <h2>Title: {import.meta.env.VITE_APP_TITLE}</h2>
         <h2>Mode: {import.meta.env.MODE}</h2>
         <h3>Message: {message}</h3>
-        <Button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount((count) => count + 1)}>
           Increase count
-        </Button>
-        <Typography variant="h5">
+        </button>
           <p>
             Count is {count}
           </p>
@@ -67,9 +61,7 @@ function App() {
           <p>
             Click on the Vite and React logos to learn more
           </p>
-        </Typography>
-      </ThemeProvider>
-    </>
+        </>
   )
 }
 
